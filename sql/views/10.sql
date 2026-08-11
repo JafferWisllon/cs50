@@ -8,5 +8,5 @@
 SELECT "english_title" AS "Print Name"
 FROM "views"
 WHERE "artist" = 'Hokusai'
-    AND "english_title" LIKE '%Province%'
+  AND "english_title" LIKE '%Province%'
 ORDER BY "contrast" DESC;
